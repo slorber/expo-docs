@@ -184,7 +184,7 @@ Here's an hello world request done with curl:
 
 ```bash
 curl -H "Content-Type: application/json" -X POST https://exp.host/--/api/v2/push/send -d '{
-  "to": "ExponentPushToken[Xrl3FBKaZnbpv9ajMJEDUY]",
+  "to": "ExponentPushToken[xxxxxxxxxxxxxxxxxxxxxx]",
   "title":"hello",
   "body": "world"
 }'
